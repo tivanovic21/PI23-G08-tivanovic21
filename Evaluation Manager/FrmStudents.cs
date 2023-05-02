@@ -13,6 +13,8 @@ namespace Evaluation_Manager
 {
     public partial class FrmStudents : Form
     {
+        private object dgvStudents;
+
         public FrmStudents()
         {
             InitializeComponent();
