@@ -44,11 +44,12 @@
             this.label1.Size = new System.Drawing.Size(78, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Korisničko ime:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtUsername
             // 
             this.txtUsername.Location = new System.Drawing.Point(101, 12);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(98, 20);
             this.txtUsername.TabIndex = 1;
@@ -56,7 +57,7 @@
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(101, 35);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(98, 20);
             this.txtPassword.TabIndex = 3;
@@ -75,7 +76,7 @@
             // btnLogin
             // 
             this.btnLogin.Location = new System.Drawing.Point(135, 65);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(64, 28);
             this.btnLogin.TabIndex = 4;
@@ -94,7 +95,7 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmLogin";
